@@ -1,0 +1,68 @@
+div {
+    width: 100px;
+    /* height: 100px; */
+    text-align: center;
+    background-color: red;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 5px auto;
+}
+
+div:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    /* ease */
+    /* linear */
+    /* ease in  */
+    /* ease out */
+    transition: 1s ease-in-out;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* list style */
+ul {
+    list-style-type: none;
+}
+
+.cover {
+    background-color: rgb(72, 72, 83);
+    width: 300px;
+    box-shadow: 0 5px 10px 7px;
+    border: 3px outset gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    animation: myanimation 5s infinite;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.cover:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    rotate: 360deg;
+    translate: 0px 80px;
+    scale: 1.2;
+    text-shadow: 0 3px 10px white;
+    transition: 0.8s ease-in-out;
+}
+
+.cover:hover img {
+    opacity: 1;
+    transition: 0.8s ease-in-out;
+}

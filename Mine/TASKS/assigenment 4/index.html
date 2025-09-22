@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="This is my assigenment 4">
+    <link rel="stylesheet" href="style.css">
+    <title>assignment</title>
+</head>
+<body>
+    <header class="head">
+        <h1>This is my assignment</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#article">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main class="main">
+        <section class="section">
+            <h2>SIGNUP HERE</h2>
+            <p>FILL THIS INFORMATION *</p><br>
+            <form action="../../SESSIONS/session4/session4.html" method="get">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                        <label for="name">Name:</label>
+                        <input class="ttt" type="text" id="name" name="name" maxlength="30" required><br><br>
+
+                        <label for="email">Email:</label>
+                        <input class="ttt" type="email" id="email" name="email" required><br><br>
+
+                        <label for="password">Password:</label>
+                        <input class="tttt" type="password" id="password" name="password" required><br><br>
+
+                        <label for="date">date:</label>
+                        <input type="date" id="date" name="date"  max="2025-09-30" required><br><br>
+                        <input type="radio" id="radio" name="radio" value="male" required>
+                        <label for="radio" id="male">male</label>
+
+                        <input type="radio" id="radio" name="radio" value="female" required>
+                        <label for="radio" id="female">female</label>
+                        <br><br>
+
+                        <label for="hobby">HOBBIES</label><br><br>
+                        <input type="checkbox" id="hobby-1" name="terms" value="coding">
+                        <label for="hobby-1">coding</label><br><br>
+                        <input type="checkbox" id="hobby-1" name="terms" value="thinking">
+                        <label for="hobby-1">thinking</label><br><br>
+                        <input type="checkbox" id="hobby-1" name="terms" value="reading">
+                        <label for="hobby-1">reading</label>
+                        <br><br>
+
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </fieldset>
+            </form>
+        </section>
+        <aside id="aside">
+            <h2>Additional Information</h2>
+            <p>If you have any questions about this assignment, feel free to reach out via the contact page.</p>
+            <ul>
+                <li><a href="https://www.example.com/resource1">Resource 1</a></li>
+                <li><a href="https://www.example.com/resource2">Resource 2</a></li>
+                <li><a href="https://www.example.com/resource3">Resource 3</a></li>
+            </ul>
+        </aside>
+        <audio controls>
+            <source src="horse.ogv" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        <video width="320" height="240" controls autoplay="fale" muted>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+    </main>
+        <article class="article" id="article">
+            <h2>About This Assignment</h2>
+            <p>This assignment is designed to help me practice creating a basic HTML structure
+                and applying CSS styles. I have included various HTML elements such as headings,
+                paragraphs, lists, and links to demonstrate my understanding of web development.</p>
+                    <footer id="footer">
+                        <p>&copy; 2025 My Assignment. All rights reserved.</p>
+                    </footer>
+        </article>
+
+</body>
+</html>

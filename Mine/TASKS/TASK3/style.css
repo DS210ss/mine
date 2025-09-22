@@ -1,0 +1,52 @@
+body {
+    color: rgb(25, 50, 58);
+    background-color: rgba(243, 165, 165, 0.356);
+    height: 100vh;
+}
+
+form {
+    background-color: lightgrey;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    margin: 5px auto;
+}
+
+fieldset {
+    color: rgb(0, 0, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset legend {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 20%;
+}
+
+form label {
+    margin: auto;
+    color: rgb(19, 48, 45);
+    font-weight: bold;
+}
+
+form input {
+    color:  black;
+    background-color: lightgreen;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 50px;
+}
+form input:hover {
+    color: white;
+    background-color: purple;
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,132 @@
+/*
+block
+inline-block
+inline
+
+*/
+
+
+/* div {
+    background-color: red;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+} */
+
+/* a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+a:focus {
+    background-color: red;
+} */
+
+
+/*
+inline-flex
+flex
+wrap
+gap
+justify content end cnter start
+flex grow
+*/
+/* .parent { */
+    /* background-color: antiquewhite; */
+    /* padding: 10px; */
+    /* height: 400px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: space-between; flex start  flex end  center   space-between  space-around   space-evenly */
+    /* flex-wrap: wrap;    break line*/
+    /* flex-flow: column wrap;  one line code flex direction, wrap*/
+    /* gap: 20px;  space between row and columns*/
+/* } */
+
+
+/*
+grid
+grid template columns >>> number of columns >>> auto fit minmax
+grid template areas
+gap
+
+*/
+/* .parent {
+    background-color: blanchedalmond;
+    padding: 10px;
+    display: grid;
+    width: 800px;
+    height: 500px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-areas: "header header header"
+                        "main sidebar nav"
+                        "main sidebar nav"
+                        "main sidebar nav"
+                        "footer footer footer";
+    gap: 10px;
+    text-align: center;
+}
+
+.parent div {
+    padding: 10px;
+    margin: 10px;
+} */
+
+/* .col-1 {
+    background-color: tomato;
+    grid-area: header; */
+    /* flex-grow: 1; */
+/* } */
+
+/* .col-2 {
+    background-color: blueviolet;
+    grid-area: main; */
+    /* flex-grow: 2.5; */
+/* } */
+
+/* .col-3 {
+    background-color: brown;
+    grid-area: sidebar; */
+    /* flex-grow: 1; */
+/* } */
+
+/* .col-4 {
+    background-color: darkgoldenrod;
+    grid-area: nav; */
+    /* flex-grow: 2; */
+/* } */
+/* 
+.col-5 {
+    background-color: black;
+    color: beige;
+    grid-area: footer;
+} */
+
+div {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+
+@media (max-width:500px) {
+    div {
+        background-color: red;
+        width: 100%;
+    }
+}
+
+@media (min-width:501px) and (max-width:700px) {
+    div {
+        background-color: black;
+        color: azure;
+        width: 100%;
+    }
+}

@@ -1,0 +1,238 @@
+body {
+    height: 100vh;
+    background-color: bisque;
+}
+
+.head {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.head h1 {
+    color: #007acc;
+    font-size: 20px;
+    margin: 10px;
+    position: absolute;
+    padding: 14px;
+}
+
+.nav{
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.main{
+    position: relative;
+}
+
+.main .section {
+    background-color: #e0e0e0;
+    width: fit-content;
+    border-radius: 10px;
+    color: #333;
+    text-shadow: 0 5px 15px #333;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.article {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+.article h2 {
+    color: #007acc;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.article p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+form {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+fieldset {
+    border: 2px solid #007acc;
+    box-shadow: 0 5px 15px #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+}
+
+fieldset legend {
+    font-weight: bold;
+    color: #007acc;
+    padding: 0 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.main .section label {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: #007acc;
+}
+
+.main .section form input[type="submit"] {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.main .section form input[type="reset"] {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+}
+
+#aside {
+    background-color: #e0e0e0;
+    width: fit-content;
+    border-radius: 10px;
+    color: #333;
+    text-shadow: 0 5px 15px #333;
+    margin: 5px auto;
+    padding: 5px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 250px;
+    height: fit-content;
+    box-shadow: 0 5px 15px #333;
+}
+
+#aside h2 {
+    color: #007acc;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#aside p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#aside ul {
+    list-style: none;
+    padding: 5px;
+}
+
+#aside ul li {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 3px solid black;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#aside ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+
+}
+
+#aside ul li a:hover {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+video, audio {
+    display: block;
+    margin: 10px auto;
+}
+
+
+#footer {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+
+.ttt {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tttt {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
