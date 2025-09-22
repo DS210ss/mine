@@ -1,0 +1,50 @@
+.card {
+    width: 900px;
+    margin: 10px auto;
+    background-color: rgb(29, 27, 27);
+    border: 3px solid #007acc;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px black;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    padding-top: 10px;
+    width: 150px;
+}
+
+#name {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bio {
+    font-style: italic;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.quote {
+    font-style: italic;
+    color: rgb(255, 254, 254);
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3 {
+    color: white
+}
+
+.pho,
+.ema {
+    color: white;
+    font-size: 20px;
+}
+
+.pho a,
+.ema a {
+    color: red;
+    font-size: 18px;
+}
