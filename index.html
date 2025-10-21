@@ -1,0 +1,154 @@
+    <!DOCTYPE html>
+    <html lang="ar" dir="rtl">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المجدي للمصاعد</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+    <!-- Header -->
+    <header class="hero">
+    <div class="navbar">
+    <div class="logo">المجدي للمصاعد</div>
+    <nav>
+        <button onclick="toggleMenu()" class="menu-toggle">☰</button>
+        <ul>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#services">الخدمات</a></li>
+        <li><a href="#gallery">المعرض</a></li>
+        <li><a href="#testimonials">آراء العملاء</a></li>
+        <li><a href="#register">تسجيل</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="hero-content">
+    <h1 class="fade-in">ثقة ترتفع بك</h1>
+    <a href="#register" class="btn pulse">سجل كعميل جديد</a>
+    </div>
+    </header>
+
+
+    <!-- About -->
+    <section id="about" class="about-section">
+    <div class="about-overlay">
+        <h2>من نحن</h2>
+        <p>
+        شركة <strong>المجدي للمصاعد</strong> هي واحدة من الشركات الرائدة في مجال تركيب وصيانة المصاعد في مصر، بخبرة تتجاوز 15 عامًا. نتميز بالدقة، الأمان، والاعتماد على أحدث التقنيات الأوروبية لضمان راحة وسلامة عملائنا.
+        </p>
+    </div>
+    </section>
+    <!-- Services -->
+    <section id="services" class="services-section">
+    <div class="services-overlay">
+        <h2>خدماتنا</h2>
+        <div class="service-card slide-up">
+        <h3>تركيب المصاعد</h3>
+        <p>أنظمة أوروبية حديثة بأيدي مهندسين معتمدين.</p>
+        </div>
+        <div class="service-card slide-up delay">
+        <h3>صيانة دورية</h3>
+        <p>زيارات مجدولة لضمان الأمان والكفاءة.</p>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+    <h2>معرض الصور</h2>
+    <div class="gallery-grid">
+    <img src="elevator1.jpg" alt="مصعد حديث">
+    <img src="elevator2.jpg" alt="تركيب مصعد">
+    <img src="elevator3.jpg" alt="فريق العمل">
+    <img src="elevator3.jpg" alt="فريق العمل">
+    </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials-section">
+    <div class="testimonials-overlay">
+    <h2>آراء العملاء</h2>
+    <div class="testimonial-card fade-in">
+        <p>“خدمة ممتازة وسرعة في التركيب، شكراً المجدي!”</p>
+        <span>– أحمد من القاهرة</span>
+    </div>
+    <div class="testimonial-card fade-in delay">
+        <p>“الصيانة الدورية وفرت علينا مشاكل كثيرة، فريق محترف فعلاً.”</p>
+        <span>– سارة من المنيا</span>
+    </div>
+    </div>
+    </section>
+
+
+    <!-- Registration -->
+    <section id="register" class="register-section">
+    <h2>تسجيل عميل جديد</h2>
+    <form id="clientForm">
+    <div class="form-group">
+        <label>الاسم الكامل:</label>
+        <input type="text" id="name" required>
+    </div>
+
+    <div class="form-group">
+        <label>رقم الهاتف:</label>
+        <input type="tel" id="phone" required>
+    </div>
+
+    <div class="form-group">
+        <label>نوع الخدمة:</label>
+        <select id="service" required>
+        <option value="">اختر الخدمة</option>
+        <option value="installation">تركيب</option>
+        <option value="maintenance">صيانة</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>العنوان:</label>
+        <input type="text" id="address" required>
+    </div>
+
+    <div class="form-group">
+        <label>ملاحظات إضافية:</label>
+        <textarea id="notes" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn">سجل الآن</button>
+    <p id="formMessage" class="form-message"></p>
+    </form>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+    <h2>تواصل معنا</h2>
+    <div class="contact-grid">
+    <div class="contact-info">
+        <p>📞 <strong>01117231620</strong></p>
+        <p>📧 <strong>info@almajdi-elevators.com</strong></p>
+        <p>📍 <strong>المنيا – شارع الجمهورية</strong></p>
+        <a href="https://wa.me/201117231620" class="btn">راسلنا على واتساب</a>
+    </div>
+    <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56314.88499605645!2d30.709521456756086!3d28.095292764831004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145b2501ca8ed45f%3A0x1682970743a18080!2sMinya%2C%20Qism%20Minya%2C%20Minya%2C%20Minya%20Governorate!5e0!3m2!1sen!2seg!4v1761065620624!5m2!1sen!2seg" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+    <p>© 2025 المجدي للمصاعد – جميع الحقوق محفوظة</p>
+    <div class="social">
+        <a href="#">فيسبوك</a> | <a href="#">انستجرام</a> | <a href="#">لينكدإن</a>
+    </div>
+    </footer>
+    <script src="main.js"></script>
+    </body>
+    </html>
+
